@@ -1,0 +1,88 @@
+#content {
+  padding: 8em 0em;
+}
+
+.template {
+	display: none;
+}
+
+.next {
+	margin-top: 2em;
+}
+
+.applicantTable {
+  width: 100%;
+}
+
+.applicantTable td, #applicantTable th {
+  padding: 0em 0.5em;
+}
+
+.applicantTable tr.bordered {
+  border-bottom: 0.25px solid gray;
+}
+
+.applicantTable tr.bordered:last-child {
+  border-bottom: none;
+}
+
+#applicantStatistics td:first-child {
+  font-weight: bold;
+}
+
+
+/*From https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/css/simple-sidebar.css*/
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.side-nav-item.selected {
+  background-color: #51be78 !important;
+  color: white !important;
+}
+
+label.error {
+  color: red;
+}
+
+.applicant-nav {
+  
+}
